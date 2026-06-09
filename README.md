@@ -6,7 +6,7 @@ This miniproject investigates deforestation in the municipality of São Félix d
 * Programmatically queried and retrieved Sentinel-2 imagery directly from the Copernicus Data Space via AWS S3 (`boto3`).
 * Used `geopandas` to visualize and verify complete geographic coverage over São Félix do Xingu.
 
-## Task 2: CNN Training for Pixel-Wise classification
+## Task 2: CNN Training for Pixel-Wise Classification
 * Finetuned a ResNet18 model pretrained on the BigEarthNet v2 dataset for forest segmentation using PyTorch Lightning.
 * Implemented a machine learning (ML) pipeline utilizing custom DataModules and data augmentation techniques.
 * Achieved a mean Intersection over Union (mIoU) of 0.745 on a test set.
