@@ -1,0 +1,66 @@
+# --- Base Dependencies ---
+numpy>=1.22
+sentinelsat>=1
+jupyter
+notebook
+pydantic
+dynaconf
+matplotlib
+geopandas>=1.0
+rasterio>=1.4
+osmnx
+seaborn
+easydict
+scikit-learn
+spectral
+torchinfo
+visdom
+openpyxl
+ipywidgets
+jupyterlab_widgets
+jupyterlab
+black
+isort
+flake8
+pytest
+requests
+rich
+tqdm
+tensorboard
+lightning
+folium
+mapclassify
+umap-learn
+boto3>=1.38.23
+python-dotenv>=1.1.0
+zarr>=3.0.8
+numcodecs>=0.16.1
+dask>=2025.5.1
+huggingface-hub>=0.32.2
+huggingface>=0.0.1
+configilm>=0.7.1
+lmdb>=1.6.2
+pyarrow>=20.0.0
+fastparquet>=2024.11.0
+rioxarray>=0.19.0
+rootutils>=1.0.7
+
+# --- PyTorch Framework (Uncomment ONE block based on your hardware) ---
+
+# For CPU-Only:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch~=2.5.0
+# torchvision~=0.20.0
+# torchaudio~=2.5.1
+
+# For NVIDIA CUDA 12.4:
+# --extra-index-url https://download.pytorch.org/whl/cu124
+# torch~=2.5.0
+# torchvision~=0.20.0
+# torchaudio~=2.5.1
+
+# For NVIDIA CUDA 11.8:
+# --extra-index-url https://download.pytorch.org/whl/cu118
+# torch~=2.5.0
+# torchvision~=0.20.0
+# torchaudio~=2.5.1
