@@ -1,4 +1,4 @@
-# Image Processing and Learning for Earth Observation Miniproject
+# Image Processing and Learning for Earth Observation SoSe 2025 Miniproject
 
 This miniproject investigates deforestation in the municipality of São Félix do Xingu, Brazil, from 2018 to 2024 using Sentinel-2 imagery and deep learning. It is subdivided into 3 tasks:
 
