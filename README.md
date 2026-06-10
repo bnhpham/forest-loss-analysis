@@ -26,7 +26,23 @@ This miniproject investigates deforestation in the municipality of São Félix d
 | **Strengths** | • Very efficient, fast and fully explainable. <br>• Requires minimal data input (only 2 spectral bands). | • More robust against atmospheric noise. <br>• Highly flexible; leverages 10 spectral bands to adapt to different biomes and seasons where NDVI fails (e.g. leafless winter forests). |
 | **Limitations** | • Sensitive to atmospheric noise causing scattering of non-forest pixels. <br>• Prone to overclassification (e.g. misclassifying meadows or grain fields as forest). <br>• Restricted solely to green vegetation. | • Computationally expensive to train, evaluate and fine-tune. <br>• Depends on quality of training data. <br>• Occasionally failing to recognize forest shapes or missing forested regions entirely. |
 
-## Requirements
+## Setup & Installation
+### Option 1: pip
 To install the required dependencies (GeoPandas, PyTorch etc.), clone this repository and run:
 ```bash
 pip install -r requirements.txt
+```
+
+### Option 2: uv
+If you have `uv` installed, clone this repository and run:
+
+```bash
+# CPU only:
+uv sync --python 3.12 --extra cpu
+
+# GPU (CUDA 12.4):
+uv sync --python 3.12 --extra cuda124
+
+# GPU (CUDA 11.8):
+uv sync --python 3.12 --extra cuda118
+```
