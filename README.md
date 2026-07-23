@@ -13,7 +13,7 @@ This miniproject investigates deforestation in the municipality of São Félix d
 * The figure below shows an example from the test set, comparing the input image, the reference segmentation mask, and the prediction produced by the model. More examples are provided in `src/ipl4eo_miniproject_2025/Task_2.ipynb`.
 
 <p align="center">
-  <img src="assets/task2_example_output.png" width="700">
+  <img src="assets/task2_example_output.png" width="800">
 </p>
 
 ## Task 3: Bitemporal Change Detection
@@ -24,7 +24,7 @@ This miniproject investigates deforestation in the municipality of São Félix d
 * The following example illustrates the differences between the two approaches on a representative patch. For both acquisition dates (2018 and 2024), the RGB image is shown together with the corresponding forest masks. The estimated percentage of forest loss is reported for each method. Additional examples are provided in `src/ipl4eo_miniproject_2025/Task_3.ipynb`.
 
 <p align="center">
-  <img src="assets/task3_example_output.png" width="700">
+  <img src="assets/task3_example_output.png" width="800">
 </p>
 
 ## Results
