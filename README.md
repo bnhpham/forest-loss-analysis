@@ -8,14 +8,24 @@ This miniproject investigates deforestation in the municipality of São Félix d
 
 ## Task 2: CNN Training for Pixel-Wise Classification
 * Finetuned a ResNet18 model pretrained on the BigEarthNet v2 dataset for forest segmentation using PyTorch Lightning.
-* Implemented a machine learning (ML) pipeline utilizing custom DataModules and data augmentation techniques.
+* Implementation of a machine learning (ML) pipeline utilizing custom DataModules and data augmentation techniques.
 * Achieved a mean Intersection over Union (mIoU) of 0.745 on a test set.
+* The figure below shows an example from the test set, comparing the input image, the reference segmentation mask, and the prediction produced by the model. More examples are provided in `src/ipl4eo_miniproject_2025/Task_2.ipynb`.
+
+<p align="center">
+  <img src="assets/task2_example_output.png" width="700">
+</p>
 
 ## Task 3: Bitemporal Change Detection
 * Divided the target tile T22MCU into 8,281 individual patches (120x120 pixels at 10m resolution) to calculate absolute ($m^2$) and relative (%) forest loss
-* Compared two distinct approaches:
+* Comparison of two distinct approaches:
     * **NDVI Differencing:** A physical-index technique using near-infrared and red bands.
     * **CNN Segmentation Differencing:** An ML model utilizing 10 spectral bands.
+* The following example illustrates the differences between the two approaches on a representative patch. For both acquisition dates (2018 and 2024), the RGB image is shown together with the corresponding forest masks. The estimated percentage of forest loss is reported for each method. Additional examples are provided in `src/ipl4eo_miniproject_2025/Task_3.ipynb`.
+
+<p align="center">
+  <img src="assets/task3_example_output.png" width="700">
+</p>
 
 ## Results
 
